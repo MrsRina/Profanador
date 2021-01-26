@@ -1,28 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "bleachhack",
+  "id": "bubbyclient",
   "version": "${version}",
-
-  "name": "BleachHack",
-  "description": "gamer hack",
+  "name": "BubbyClient",
+  "description": "Best Client 2",
   "authors": [
-    "Bleach#0136"
+    "BubbyRoosh",
+    "Jrepxc",
+    "RoastyRon/KarioMart/Not Linus Torvalds"
   ],
   "contact": {
-    "homepage": "https://github.com/BleachDrinker420/",
-    "sources": "https://github.com/BleachDrinker420/bleachhack-1.14"
+    "homepage": "uhhh",
+    "sources": "no"
   },
-
-  "license": "CC0-1.0",
-  "icon": "assets/bleachhack/icon.png",
-
+  "license": "EVIL PROPRIETARY SURVEILLANCE DEVICE",
+  "icon": "assets/bubbyclient/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "bleach.hack.BleachHack"
+      "bubby.client.BubbyClient"
     ]
   },
   "mixins": [
-    "bleachhack.mixins.json"
+    "bubbyclient.mixins.json"
   ]
 }
