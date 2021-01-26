@@ -53,7 +53,7 @@ public class ModuleManager
     modules.add(new HoleESP());
     modules.add(new HoleFill());
     modules.add(new InfoTab());
-    modules.add(new InventoryCarry());
+//    modules.add(new InventoryCarry());
     modules.add(new InvPreview());
     modules.add(new IRC());
     modules.add(new Jesus());

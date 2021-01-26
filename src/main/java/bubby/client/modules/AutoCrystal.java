@@ -167,7 +167,7 @@ public class AutoCrystal extends Module
             || mc.world.getBlockState(blockPos).getBlock() == Blocks.BEDROCK)
             && mc.world.getBlockState(up1).getBlock() == Blocks.AIR
             && mc.world.getBlockState(up2).getBlock() == Blocks.AIR
-            && mc.world.getEntities(null, new Box(up1.getX(), up1.getY(), up1.getZ(), up1.getX() + 1.d, up1.getY() + 1.d, up1.getZ() + 1.d)).isEmpty()
-            && mc.world.getEntities(null, new Box(up2.getX(), up2.getY(), up2.getZ(), up2.getX() + 1.d, up2.getY() + 1.d, up2.getZ() + 1.d)).isEmpty();
+            && mc.world.getOtherEntities(null, new Box(up1.getX(), up1.getY(), up1.getZ(), up1.getX() + 1.d, up1.getY() + 1.d, up1.getZ() + 1.d)).isEmpty()
+            && mc.world.getOtherEntities(null, new Box(up2.getX(), up2.getY(), up2.getZ(), up2.getX() + 1.d, up2.getY() + 1.d, up2.getZ() + 1.d)).isEmpty();
   }
 }

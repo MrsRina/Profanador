@@ -1,5 +1,5 @@
 package bubby.client.commands;
-
+/*
 import baritone.api.BaritoneAPI;
 import bubby.api.command.Command;
 
@@ -17,3 +17,5 @@ public class Baritone extends Command
     BaritoneAPI.getProvider().getPrimaryBaritone().getCommandManager().execute(String.join(" ", args));
   }
 }
+
+ */

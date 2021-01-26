@@ -41,7 +41,7 @@ public class MixinGameRenderer
   updateTargetedEntityEntityRayTraceProxy(Entity entity, double maxDist, float partialTicks, boolean includeFluids)
   {
     if(BubbyClient.modules.getModuleByName("Liquids").isToggled())
-      return entity.rayTrace(maxDist, partialTicks, true);
-    return entity.rayTrace(maxDist, partialTicks, includeFluids);
+      return entity.raycast(maxDist, partialTicks, true);
+    return entity.raycast(maxDist, partialTicks, includeFluids);
   }
 }

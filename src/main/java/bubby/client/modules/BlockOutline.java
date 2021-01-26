@@ -33,7 +33,7 @@ public class BlockOutline extends Module
   public void
   onRender(RenderEvent event)
   {
-    blockHit = mc.getCameraEntity().rayTrace(20.d, 0.f, false);
+    blockHit = mc.getCameraEntity().raycast(20.d, 0.f, false);
     if(blockHit.getType() == HitResult.Type.BLOCK)
       RenderUtils.drawBox(((BlockHitResult) blockHit).getBlockPos(),
               (float) red.get() / 255,

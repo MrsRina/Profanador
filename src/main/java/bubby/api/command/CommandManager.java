@@ -11,7 +11,7 @@ public class CommandManager
   public static String prefix = ".";
 
   public static List<Command> commands = Arrays.asList(
-          new Baritone(),
+//          new Baritone(),
           new Coords(),
           new Dupe(),
           new Bind(),

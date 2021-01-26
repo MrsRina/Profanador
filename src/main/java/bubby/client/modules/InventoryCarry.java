@@ -1,5 +1,5 @@
 package bubby.client.modules;
-
+/*
 import bubby.api.eventapi.PogEvent;
 import bubby.api.events.SendPacketEvent;
 import bubby.api.module.Category;
@@ -21,3 +21,6 @@ public class InventoryCarry extends Module
       event.setCancelled(true);
   }
 }
+
+
+ */
